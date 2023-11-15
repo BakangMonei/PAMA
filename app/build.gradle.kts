@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.madassignment.pama"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.madassignment.pama"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = 21
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -74,4 +74,11 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    /*Material*/
+    implementation ("com.google.android.material:material:1.12.0-alpha01") //alpha release
+    implementation ("com.google.android.material:material:1.10.0")
+    implementation ("com.google.android.material:material:1.10.0")
+    implementation ("com.github.mancj:MaterialSearchBar:0.8.2")
+    /*Material*/
 }

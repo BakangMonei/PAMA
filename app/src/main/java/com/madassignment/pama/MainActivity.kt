@@ -8,6 +8,7 @@ import android.content.Intent
 import android.os.Handler
 import android.widget.ImageView
 import android.widget.TextView
+import com.madassignment.pama.Activities.LoginActivity
 
 class MainActivity : AppCompatActivity() {
 
